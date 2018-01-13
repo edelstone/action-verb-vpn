@@ -1,0 +1,42 @@
+body {
+  word-break: break-word;
+}
+
+.bg-av-red {
+  background: #cf352c;
+}
+
+.bg-av-dark-red {
+  background: #91251f;
+}
+
+.cream {
+  color: #fffceb;
+}
+
+.ff-space-mono {
+  font-family: 'Space Mono', sans-serif;
+}
+
+.ff-avenir {
+  font-family: 'Avenir W01', -apple-system, BlinkMacSystemFont, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif
+}
+
+a {
+  border-bottom: 5px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  text-decoration: none;
+  transition: all .15s ease-in-out;
+}
+
+a:hover {
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+
+.animate {
+  transition: all .15s ease-in-out;
+}
+
+.hover-rotate:hover {
+  transform: rotate(2deg);
+}
