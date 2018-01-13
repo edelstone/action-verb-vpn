@@ -1,6 +1,6 @@
-# Staff VPN Landing Page
+# Action Verb VPN Central
 
-This repo is for the landing page for staff who go to the [token.vpn](https://token.av) intranet site for access to the adminCRM.
+This repo is for the landing page for staff who go to the [token.av](https://token.av) intranet site for access to the adminCRM.
 
 ## CSS Framework
 

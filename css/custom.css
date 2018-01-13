@@ -33,10 +33,6 @@ a:hover {
   border-bottom-color: rgba(255, 255, 255, 0.5);
 }
 
-.animate {
-  transition: all .15s ease-in-out;
-}
-
 .hover-rotate:hover {
   transform: rotate(2deg);
 }
