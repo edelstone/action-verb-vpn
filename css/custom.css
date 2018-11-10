@@ -1,5 +1,10 @@
 body {
   word-break: break-word;
+  animation: fadein 0.25s linear;
+}
+
+.logo {
+  max-width: 6rem;
 }
 
 .bg-av-red {
@@ -26,7 +31,7 @@ a {
   border-bottom: 5px solid rgba(255, 255, 255, 0.2);
   color: #fff;
   text-decoration: none;
-  transition: all .15s ease-in-out;
+  transition: border .15s ease-in-out, transform .15s ease-in-out;
 }
 
 a:hover {
@@ -35,4 +40,10 @@ a:hover {
 
 .hover-rotate:hover {
   transform: rotate(2deg);
+}
+
+@keyframes fadein {
+  0% { opacity: 0; }
+  66% { opacity: 0; }
+  100% { opacity: 1; }
 }
